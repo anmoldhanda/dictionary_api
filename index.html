@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dictionary api</title>
+    <!-- ========================== custom css file ========================== -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="dictionaryapp-api-container">
+      <img src="book-open-solid.svg" alt="" class="svgicon" />
+      <h3 class="headline">welcome to the dictionary app</h3>
+      <div class="api-query-container">
+        <form action="#" method="post" class="dictionaryapp-apiform">
+          <input
+            type="text"
+            name="query"
+            id="inputqueryfield"
+            placeholder="search for your query here"
+          />
+          <button id="querybtn">submit</button>
+        </form>
+        <div class="apidata-box">
+          <p id="apidetails-word">your result will appear here</p>
+          <p id="apidetails-definition"></p>
+        </div>
+      </div>
+    </div>
+    <!-- ========================== custom js file ========================== -->
+    <script src="main.js"></script>
+  </body>
+</html>
